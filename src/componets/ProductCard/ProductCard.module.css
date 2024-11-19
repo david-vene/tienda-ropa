@@ -1,0 +1,28 @@
+.ProductCard{
+display: flex;
+flex-direction: column;
+padding: 20px;
+border: 1px solid #396f8d;
+border-radius: 20px;
+margin: 10px;
+width: 20%;
+text-align: start;
+
+
+box-shadow: 0 2px 4px rgb(0, 0, 0, 0.1);
+}
+
+
+.ProductCard img{
+    width: 100%;
+}
+.desing_button{
+    align-items: end;
+}
+.ProductCard button{
+    color: #bfdae7;
+    text-transform: uppercase;
+    border-radius: 20px;
+    background-color: #228ea1;
+    
+}

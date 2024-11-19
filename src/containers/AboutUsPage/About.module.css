@@ -1,0 +1,31 @@
+
+.AboutUsPage{
+
+    padding: 64px;
+   
+  
+    background-color: #4281A4;
+    color: #fff;
+    
+}
+.AboutUsPage h1{
+    text-align: center;
+text-transform: uppercase;
+background-color: #24b1ca;
+    
+
+}
+.AboutUsPage p{
+
+ text-align: justify;
+ font-size: 1.1rem;
+    }
+ .productlist{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        
+        margin: 20px;
+    
+    }
