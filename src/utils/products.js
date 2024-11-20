@@ -4,7 +4,7 @@ export const products =[
        name: 'Sudadera gatuna',
        price: '100$',
        description: 'sudadera con diseño de gatos para abrigarse en los dias frios',
-       imagen: 'https://placehold.co/400',
+       imagen: '/imagenes/imagen1.jpg',
 
 
     },
