@@ -1,25 +1,35 @@
 .ProductCard{
 display: flex;
 flex-direction: column;
+justify-content: space-between;
 padding: 20px;
 border: 1px solid #396f8d;
 border-radius: 20px;
-margin: 10px;
-width: 20%;
+
+
+
 text-align: start;
 
 
 box-shadow: 0 2px 4px rgb(0, 0, 0, 0.1);
+object-fit: contain;
 }
-
-
+.ProductCard_Header{
+ height: 70dvh; 
+}
 .ProductCard img{
-    width: 100%;
+height: 100%;
+width: 100%;
+object-fit: cover;
+
+
+
 }
 .desing_button{
     align-items: end;
 }
 .ProductCard button{
+    
     color: #bfdae7;
     text-transform: uppercase;
     border-radius: 20px;

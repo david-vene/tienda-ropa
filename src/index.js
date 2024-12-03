@@ -7,11 +7,13 @@ import {
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import {routes} from './routes';
+import { Navbar } from './componets';
 const router = createBrowserRouter(routes);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Navbar></Navbar>
     <RouterProvider router={router} />
   </React.StrictMode>
 );

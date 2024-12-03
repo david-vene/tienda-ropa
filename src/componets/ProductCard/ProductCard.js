@@ -13,18 +13,46 @@ class ProductCard extends Component {
 const { className, product } = this.props;
         return(
             <div className={classNames(css.ProductCard, className)}>
+                <h3>{product.name}</h3>
             <div className={css.ProductCard_Header}>
             <img src={product.imagen} alt="producto" />
             </div>
             <div className={css.ProductCard_body}>
-            <h3>{product.name}</h3>
-            <p>{product.description}</p>
+      
             <p>{product.price}</p>
             </div>
             <div className={css.desing_button}>
-            <button className={css.ProductCard_button}> add to cart</button>
+            <button className={css.ProductCard_button}
+            onClick={(e)=> {
+            e.preventDefault();
+                
+            const currentcard = JSON.parse(localStorage.getItem("card-urbanvibes"))  || [];
+
+            // currentcard.push(product.id);
+
+            //     localStorage.setItem("card-urbanvibes", JSON.stringify(currentcard));
+                let productTemp = currentcard.find((item)=> item.id === product.id);
+                if (productTemp){
+                    productTemp.quantity +=1;
+                }else{
+
+                    currentcard.push({id: product.id, quantity: 1});
+                }
+
+                localStorage.setItem("card-urbanvibes" , JSON.stringify(currentcard));
+            }}
+            
+            
+            > 
+                
+                
+                add to cart
+                
+                
+                </button>
             </div>
             </div>
+            
         )
     }
 }
