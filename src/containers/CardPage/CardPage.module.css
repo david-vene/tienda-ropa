@@ -3,27 +3,34 @@
     flex-direction: column;
     align-items: center;
     padding: 20px;
-  
+
+
+    color: #fff;
 }
+
 .CardPage_item_header{
     
-    width: 250px;
-
+    height: 100%; 
+   
 }
 .CardPage_item_header img{
-    height: 70dvh;
-    max-width: 100%;
-
+    height: 150px;
+    width: 150px;
     object-fit: cover;
+    border-radius: 20px;
 
   
+ 
 }
+
 
 .CardPage_list{
  width: 100%;
-  
+  max-width: 800px;
    margin-top: 20px;
- 
+   background-color: #2e5c68;
+   box-shadow: 5px 5px 5px #000000;
+
 }
 
 .CardPage_item{
@@ -31,6 +38,23 @@
     justify-content:flex-start ;
     align-items: center;
     gap: 24px;
-    border-bottom: 1px solid #ccc;
+    padding:10px;
+    border-bottom: 3px solid #ffffff;
+    
 
+}
+
+.CardPage_promocode{
+
+    padding: 16px;
+    color: #000000;
+    background-color: #0b597e;
+}
+
+.CardPage_total{
+justify-content: center;
+align-items: center;
+font-size: 2rem;
+
+color: #000000;
 }

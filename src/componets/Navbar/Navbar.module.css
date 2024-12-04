@@ -1,0 +1,13 @@
+.App_header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0px 64px 0 64px;
+font-size: 1.3rem;
+margin: 0px;
+
+background:linear-gradient(to right, rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.0)),#4281A4;;
+color: #fff;
+}
+
+.app_search{}

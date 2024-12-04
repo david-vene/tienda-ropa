@@ -3,9 +3,9 @@
 
     padding: 64px;
    
-  
-    background-color: #4281A4;
-    color: #fff;
+  justify-content: center;
+    
+    color: #000000;
     
 }
 .AboutUsPage h1{
@@ -20,12 +20,10 @@ background-color: #24b1ca;
  text-align: justify;
  font-size: 1.1rem;
     }
- .productlist{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        
-        margin: 20px;
-    
-    }
+
+.AboutUsPage img{
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

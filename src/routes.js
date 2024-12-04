@@ -1,4 +1,4 @@
-import { HomePage, AboutUsPage,CardPage  } from "./containers";
+import { HomePage, AboutUsPage,CardPage, Catalogopage } from "./containers";
 
 
 export const routes = [
@@ -13,5 +13,7 @@ export const routes = [
 {
     path:'/Card',
     element: <CardPage />
-}
+},
+
+
 ]

@@ -3,9 +3,10 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 padding: 20px;
-border: 1px solid #396f8d;
-border-radius: 20px;
 
+border-radius: 20px;
+background-color: #396f8d;
+color: #fff;
 
 
 text-align: start;
@@ -16,6 +17,8 @@ object-fit: contain;
 }
 .ProductCard_Header{
  height: 70dvh; 
+ height: 100%;
+width: 100%;
 }
 .ProductCard img{
 height: 100%;
