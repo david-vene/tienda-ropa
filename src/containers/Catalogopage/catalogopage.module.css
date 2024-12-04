@@ -1,0 +1,7 @@
+.ropas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   padding: 64px;
+   gap: 16px;
+   
+   }

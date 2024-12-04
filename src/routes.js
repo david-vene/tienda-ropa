@@ -14,6 +14,9 @@ export const routes = [
     path:'/Card',
     element: <CardPage />
 },
-
+{
+    path:'/Cat',
+    element: <Catalogopage />
+},
 
 ]
