@@ -16,8 +16,6 @@ root.render(
   <React.StrictMode>
     <Navbar></Navbar>
     <RouterProvider router={router} />
-
-    <Catalogopage></Catalogopage>
   </React.StrictMode>
 );
 
